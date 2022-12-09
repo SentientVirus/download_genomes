@@ -23,7 +23,7 @@ def download_files(link_str):
     for extension in extensions:
         to_download = f'{path}/{filename}_{extension}.gz'
         strain = f'{filename.split("_")[2]}'
-        if 'MP2' in strain:
+        if 'ASM131494v1' in strain:
             strain = 'MP2'
         suffix = f'{strain}_{extension}'
         outdir = extension.split('.')[1]

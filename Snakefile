@@ -44,6 +44,6 @@ rule download_files:
 #    shadow: "minimal"
     params:
         ext = config["extensions"],
-        MP2 = "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/741/865/GCF_000741865.1_LkMP2v1.0"
+        MP2 = "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/314/945/GCF_001314945.1_ASM131494v1"
     script:
         "download_files.py"
