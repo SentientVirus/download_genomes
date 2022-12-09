@@ -1,0 +1,6 @@
+assembly_summary_genbank.txt
+faa/*
+fna/*
+gff/*
+gbff/*
+.snakemake/*
