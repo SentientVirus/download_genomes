@@ -1,4 +1,5 @@
 assembly_summary_genbank.txt
+cds/*
 faa/*
 fna/*
 gff/*
